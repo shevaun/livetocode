@@ -14,31 +14,33 @@
   </head>
   <body>
     <div class="site">
-    <div class="header">
-      <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-      <h2 class="subtitle">{{ site.subtitle }}</h2>
+      <div class="header">
+        <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+        <h2 class="subtitle">{{ site.subtitle }}</h2>
+      </div>
+
+      <div class="content">
+        {{ content }}
+      </div>
+
+      {% include tag_cloud.html %}
+
+      <div class="footer">
+        <div class="contact">
+	  <p>
+	    Shevaun Coker<br />
+	    Web Developer<br />
+	  </p>
+        </div>
+        <div class="contact">
+	  <p>
+	    <a href="https://github.com/shevaun">github.com/shevaun</a><br />
+	    <a href="https://twitter.com/shevauncoker">twitter.com/shevauncoker</a><br />
+	  </p>
+        </div>
+      </div>
     </div>
+    {% include google_analytics.html %}
 
-    <div class="content">
-      {{ content }}
-    </div>
-
-    {% include tag_cloud.html %}
-
-    <div class="footer">
-      <div class="contact">
-	<p>
-	  Shevaun Coker<br />
-	  Web Developer<br />
-	</p>
-      </div>
-      <div class="contact">
-	<p>
-	<a href="https://github.com/shevaun">github.com/shevaun</a><br />
-	<a href="https://twitter.com/shevauncoker">twitter.com/shevauncoker</a><br />
-	</p>
-      </div>
-      </div>
-      </div>
   </body>
 </html>
