@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generate a Rails 3.2 project with rspec & factory_girl
+title: Generate a Rails 3.2 project with RSpec & FactoryGirl
 enki_id: 9
 tags: rails rspec factory_girl
 ---
