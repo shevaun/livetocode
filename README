@@ -1,0 +1,8 @@
+This is my personal blog served on github pages with jekyll.
+
+Allow me to remind myself on how to add a post:
+
+1. Write post in _posts
+2. Test locally with: jekyll serve -w
+3. Commit changes to source and build site with: jekyll build
+4. Commit changes to _site (built app)
